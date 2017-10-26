@@ -113,7 +113,7 @@ class SessionEventHandler():
         print("Sending Request: %s" % request.toString())
 
         self.requestID = session.sendRequest(request, identity=self.identity)
-        print("CreateIOI request sent.")
+        print("UpdateIOI request sent.")
 
     def processAdminEvent(self,event):  
         print("Processing ADMIN event")
